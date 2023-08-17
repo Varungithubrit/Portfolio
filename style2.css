@@ -1,0 +1,328 @@
+****COMMON CSS SECTION****
+{
+    Box-sizing: border-box;
+        Margin: 0;
+        Padding: 0;
+        outline: 0;
+        Font-family: Roboto, sans-serif, arial;
+    }
+    html, body 
+    {
+        Font-size: 14px;
+        Font-weight: 400;
+        Background: #000000;
+        Color: #fff;
+    }
+    .container {
+        Width: 1100px;
+        Margin: 0px auto;
+        Display: table;
+    }
+    .width-33 {
+        Width: 33%;
+        Float: left;
+    }
+    .width-66 {
+        Width: 66%;
+        Float: left;
+    }
+    /*****MENU SECTION*****/
+    .main-panel {
+        width: 100%;
+        float: left;
+        padding-top: 20px;
+        padding-bottom: 50px;
+        height: 100vh;
+    }
+    
+    .logo {
+        font-size: 40px;
+        font-weight: 600;
+    }
+    
+    .span-col {
+        color: #ffbf35;
+    }
+    
+    nav {
+        float: right;
+    }
+    
+    nav a {
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: 500;
+        margin-left: 20px;
+        color: white;
+    }
+    /*****Main BANNER*****/
+    .width-50 {
+        float: left;
+        width: 50%;
+    }
+    .banner-section {
+        width: 100%;
+        float: left;
+        margin-top: 25vh;
+    }
+    .banner-section h1 {
+        font-size: 48px;
+        margin-top: 10px;
+        font-weight: bolder;
+    }
+    .banner-section h2 {
+        font-size: 20px;
+        line-height: 25px;
+        margin-top: 10px;
+        font-weight: 400;
+    }
+    .banner-section a {
+        float: left;
+        text-decoration: none;
+        font-size: 18px;
+        margin-top: 20px;
+        border-radius: 50%;
+        text-align: center;
+        border: 2px solid #ffbf35;
+        color: #ffbf35;
+        margin-left: 10px;
+        height: 50px;
+        width: 50px;
+        line-height: 50px;
+    }
+    /*****Main BANNER IMAGE*****/
+    .main-panel img {
+        margin-top: 10%;
+        width: 100%;
+        margin-left: 10%;
+    }
+    .main-section {
+        Width: 100%;
+        Float: left;
+        Padding: 110px 0px 110px 0px;
+    }
+    .bg-lightgrey {
+        background-color: #1a1a1a;
+    }
+    .about-img {
+        Width: 100%;
+        Padding: 0px 50px;
+        Margin-top: 20px;
+    }
+    
+    /*ABOUT US SECTION*/
+    .main-section {
+        Width: 100%;
+        Float: left;
+        Padding: 110px 0px 110px 0px;
+    }
+    .width-100 {
+        Width: 100%;
+        Float: left;
+    }
+    .mt-20 {
+        Margin-top: 20px;
+    }
+    .heading-text {
+        Width: 100%;
+        Float: left;
+        Font-size: 35px;
+        Text-align: center;
+        Margin-bottom: 50px;
+        Color: #ffbf35;
+    }
+    .about-img {
+        Width: 100%;
+        Padding: 10px 0px;
+        Margin-top: 20px;
+    }
+    .about-us {
+        Width: 100%;
+        Float: left;
+        
+    }
+    .about-us p {
+        Font-size: 16px;
+        Margin-top: 15px;
+        Line-height: 27px;
+    }
+    Table {
+        Width: 100%;
+    }
+    Table th,
+    Table td {
+        Font-size: 16px;
+        Text-align: left;
+        Padding: 5px 0px;
+    }
+    /*****SKILL SECTION*****/
+    .skill {
+        width: 150%;
+        Margin-top: 50px;
+        Font-size: 17px;
+    }
+    
+    
+    .skill span {
+        Float: right;
+    }
+    
+    .skill div {
+        Width: 100%;
+        Float: left;
+        Margin-top: 5px;
+        Background: #e7e7e7;
+        Border-radius: 10px;
+        margin-left: 0px;
+    }
+    
+    .skill div span {
+        Background: #ffbf35;
+        Height: 5px;
+        Float: left;
+    }
+    
+    /*****EXPERIENCE SECTION*****/
+    .bg-lightgrey {
+        Background-color: #1a1a1a;
+    }
+    .edu-exp {
+        Padding: 10px 0px;
+        Width: 48%;
+        Margin: 1%;
+        Float: center;
+        Padding-left: 10px;
+    }
+    .experience-list {
+        Width: 100%;
+        Float: left;
+        Padding: 30px 10px;
+        Background: #262626;
+        Margin-bottom: 20px;
+    }
+    .experience-content {
+        Width: 100%;
+        Float: left;
+        Margin-left: 10px;
+    }
+    .experience-content h2 {
+    
+        Font-weight: 600;
+        Margin-bottom: 5px;
+        Font-size: 20px;
+    }
+    .experience-content h3 {
+        Color: #ffbf35;
+        Font-weight: 500;
+        Margin-bottom: 2px;
+        Font-size: 17px;
+    }
+    .experience-content p {
+        Font-size: 15px;
+    }
+    /*SERVICE SECTION*/
+    .service-list {
+        Padding: 40px;
+        Margin-top: 35px;
+        Background: #262626;
+        Border-radius: 15px;
+        Width: 80%;
+        Float: left;
+    }
+    
+    .service-list i {
+        Font-size: 50px;
+        Color: #ffbf35;
+        Width: 70px;
+        Float: left;
+    }
+    .service-list h3 {
+        Font-size: 28px;
+        Margin-top: 8px;
+        Margin-bottom: 15px;
+    }
+    
+    .service-list p {
+        Font-size: 15px;
+        Line-height: 25px;
+    }
+    /*PORTFOLIO SECTION*/
+    .gallery {
+        Width: 100%;
+        Float: left;
+        Margin-top: 30px;
+    }
+    .gallery img {
+        Height: auto;
+        Width: 95%;
+        Margin-bottom: 20px;
+    }
+    /*CONTACT US SECTION*/
+    .contact form {
+        Width: 66%;
+        Margin: 0px auto;
+    }
+    .contact input,
+    Textarea {
+        Width: 100%;
+        Float: left;
+        Margin-bottom: 20px;
+        Height: 40px;
+        Padding: 10px;
+        Border: 1px solid #a1a1a1;
+    }
+    .contact textarea {
+        Height: 80px;
+    }
+    .contact button {
+        Width: 100%;
+        Float: left;
+        Margin-bottom: 20px;
+        Height: 40px;
+        Padding: 10px;
+        Background: #ffbf35;
+        Color: #fff;
+        Border: none;
+        Font-size: 16px;
+    }
+    .contact h3 {
+        Font-size: 26px;
+        Text-align: center;
+        Margin-top: 60px;
+        Color: #ffbf35;
+    }
+    .contact h4 {
+        Font-size: 22px;
+        Text-align: center;
+        Margin-top: 10px;
+    }
+    .contact p {
+        Text-align: center;
+        Font-size: 16px;
+        Margin-top: 5px;
+    }
+    /*****FOOTER SECTION*****/
+    .footer {
+        Background-color: #202020;
+        Padding: 30px 0px 40px 0px;
+        Width: 100%;
+        Float: left;
+    }
+    .footer-sect {
+        Color: #b3b3b3;
+    }
+    .footer-sect a {
+        Color: #b3b3b3;
+        Margin-left: 10px;
+        Text-decoration: none;
+        Font-size: 18px;
+        Text-align: center;
+    }
+    .social-icon a i {
+        Width: 50px;
+        Height: 50px;
+        Border: 1px solid #cdcdcd;
+        Line-height: 50px;
+        Font-size: 20px;
+        Border-radius: 50%;
+    }
